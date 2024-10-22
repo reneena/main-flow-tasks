@@ -2,8 +2,8 @@
 mylist=[1,2,3,4,5,6,7,8]
 print("My list is:",mylist)
 
-#creating & printing a list
-mylist=[1,2,3,4,5,6,7,8]
+#adding element to list
+mylist.append(9)
 print("My list is:",mylist)
 
 #removing the number 9 from the list 
@@ -16,11 +16,7 @@ print("My list after modifying 1 is:",mylist)
 
 
 
-
-
-
 #Creating and printing mydict
-
 mydict={"name":"Jamlu",
         "age":28,
         "place": "Chennai"
@@ -32,9 +28,11 @@ print("mydict:",mydict)
 mydict["gender"]="male"
 print("Mydict after adding gender:", mydict)
 
+#deleting element
 del mydict["age"]
 print("Mydict after deleting age:", mydict)
 
+#modifying element
 mydict["name"]="Reneena"
 print("Mydict after modifying name from Jamal to Reneena:", mydict)
 
