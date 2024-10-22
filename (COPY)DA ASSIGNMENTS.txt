@@ -1,0 +1,58 @@
+#creating & printing a list
+mylist=[1,2,3,4,5,6,7,8]
+print("My list is:",mylist)
+
+#creating & printing a list
+mylist=[1,2,3,4,5,6,7,8]
+print("My list is:",mylist)
+
+#removing the number 9 from the list 
+mylist.remove(9)
+print("My list after removing 9 is:",mylist)
+
+#modifying first element from 1 to 0
+mylist[0]=0
+print("My list after modifying 1 is:",mylist)
+
+
+
+
+
+
+#Creating and printing mydict
+
+mydict={"name":"Jamlu",
+        "age":28,
+        "place": "Chennai"
+}
+print("mydict:",mydict)
+
+
+#adding a key value pair to mydict
+mydict["gender"]="male"
+print("Mydict after adding gender:", mydict)
+
+del mydict["age"]
+print("Mydict after deleting age:", mydict)
+
+mydict["name"]="Reneena"
+print("Mydict after modifying name from Jamal to Reneena:", mydict)
+
+
+
+#creating and printing myset
+myset={1,2,"reneena",4.0}
+print("Myset:", myset)
+
+#adding 3 to myset
+myset.add(3)
+print("myset after adding 3:",myset)
+
+#removing 3 from myset
+myset.remove(3)
+print("myset after removing 3:",myset)
+
+#creating and updating myset2 to myset
+myset2={5,6,7}
+myset.update(myset2)
+print("myset after adding myset2:",myset)
